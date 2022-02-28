@@ -1,0 +1,16 @@
+.document {
+  padding: 1em;
+}
+
+.box {
+  height: 5em;
+  width: 5em;
+  background: grey;
+}
+
+.label {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 10em;
+}

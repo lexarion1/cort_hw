@@ -1,0 +1,8 @@
+@import '../../styles/variables';
+
+.container {
+  padding: 1em;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
+  margin-bottom: $primary-space;
+}

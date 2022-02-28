@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.container {
+  flex: 1 1;
+  display: flex;
+  padding: $primary-space;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  flex-flow: row wrap;
+  height: 100%;
+}

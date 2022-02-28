@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+
+.container {
+  min-width: 300px;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  padding: $primary-space;
+  margin-right: $primary-space;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

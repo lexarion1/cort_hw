@@ -1,0 +1,25 @@
+@use 'sass:math';
+
+@import '../../../styles/variables';
+
+.button {
+  text-align: left;
+  padding: math.div($primary-space, 2) 0;
+  cursor: pointer;
+}
+
+.children {
+  padding-left: $primary-space;
+}
+
+.label-container {
+
+}
+
+.label {
+  margin-left: math.div($primary-space, 2);
+}
+
+.active {
+  background: grey;
+}
